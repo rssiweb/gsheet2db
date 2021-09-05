@@ -1,0 +1,34 @@
+    {
+        "name": "Appraisal data",
+        "sheet": {
+            "id": "15gU17ri74_0_nG7yidL1HfUfafNHmBzcINBQdQOAguk",
+            "range": "A:K",
+            "has_header": true
+        },
+        "database": {
+            "database": "d88k3j2m61uu9j",
+            "table": "myappraisal_myappraisal"
+        }
+    }, {
+        "name": "Allocation data",
+        "sheet": {
+            "id": "1UOe2dd-5zWRo6QxRF1K5g5RdpYXBPiIGUBe_nfYhUqg",
+            "range": "A:F",
+            "has_header": true
+        },
+        "database": {
+            "database": "d88k3j2m61uu9j",
+            "table": "allocationdb_allocationdb"
+        }
+    }, {
+        "name": "Result data",
+        "sheet": {
+            "id": "1mok8YX8--25LNcB47MMnmAZEiBQ0lmjfOkmsfCh8_XA",
+            "range": "A:I",
+            "has_header": true
+        },
+        "database": {
+            "database": "d88k3j2m61uu9j",
+            "table": "result_database_result"
+        }
+    }
