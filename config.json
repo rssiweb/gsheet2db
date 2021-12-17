@@ -91,5 +91,16 @@
             "database": "d88k3j2m61uu9j",
             "table": "result_database_result"
         }
+    }, {
+        "name": "New Result Database",
+        "sheet": {
+            "id": "1W4ioGLNfUKNXqAvPLnOP3gXXXoZS7jWDLS28mvBCrU0",
+            "range": "A:AB",
+            "has_header": true
+        },
+        "database": {
+            "database": "d88k3j2m61uu9j",
+            "table": "new_result"
+        }
     }
 ]
