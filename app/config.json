@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Library data",
         "sheet": {
             "id": "1TG0MrpPWoiainXHVmEJZqV2w4swDMi75RDbR-erfasY",
@@ -6,7 +7,7 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "bookdata_book"
         }
     },
@@ -18,7 +19,7 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "leavedb_leavedb"
         }
     },
@@ -30,7 +31,7 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "rssimyaccount_members"
         }
     },
@@ -42,7 +43,7 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "rssimyprofile_student"
         }
     },
@@ -54,7 +55,7 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "medimate_medimate"
         }
     },
@@ -66,10 +67,11 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "myappraisal_myappraisal"
         }
-    }, {
+    },
+    {
         "name": "Allocation data",
         "sheet": {
             "id": "1UOe2dd-5zWRo6QxRF1K5g5RdpYXBPiIGUBe_nfYhUqg",
@@ -77,10 +79,11 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "allocationdb_allocationdb"
         }
-    }, {
+    },
+    {
         "name": "Result data",
         "sheet": {
             "id": "1mok8YX8--25LNcB47MMnmAZEiBQ0lmjfOkmsfCh8_XA",
@@ -88,10 +91,11 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "result_database_result"
         }
-    }, {
+    },
+    {
         "name": "New Result Database",
         "sheet": {
             "id": "1W4ioGLNfUKNXqAvPLnOP3gXXXoZS7jWDLS28mvBCrU0",
@@ -99,7 +103,7 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "new_result"
         }
     }
