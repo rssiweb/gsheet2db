@@ -106,7 +106,7 @@
         "name": "Claim database",
         "sheet": {
             "id": "1WU4Me224H3_4DIDNWecxICWPCkmCGEPo0p3xdzmqOQI",
-            "range": "A:Y",
+            "range": "A:AB",
             "has_header": true
         },
         "database": {
