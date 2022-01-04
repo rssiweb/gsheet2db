@@ -50,7 +50,7 @@
         "name": "Mediclaim data",
         "sheet": {
             "id": "1gcgHrLSKt5pp9q7bf5QA_zbpu4EtHJXFrVAJI3qKNiI",
-            "range": "A:AK",
+            "range": "A:AL",
             "has_header": true
         },
         "database": {
