@@ -102,5 +102,16 @@
             "database": "d88k3j2m61uu9j",
             "table": "new_result"
         }
+    }, {
+        "name": "Claim database",
+        "sheet": {
+            "id": "1WU4Me224H3_4DIDNWecxICWPCkmCGEPo0p3xdzmqOQI",
+            "range": "A:Y",
+            "has_header": true
+        },
+        "database": {
+            "database": "d88k3j2m61uu9j",
+            "table": "claim"
+        }
     }
 ]
