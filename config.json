@@ -49,13 +49,13 @@
     {
         "name": "Mediclaim data",
         "sheet": {
-            "id": "1gcgHrLSKt5pp9q7bf5QA_zbpu4EtHJXFrVAJI3qKNiI",
+            "id": "1cO2AkjenAx56FAxkXQJ0Ke_TVC5M741MZU8UUQ2sf4k",
             "range": "A:AL",
             "has_header": true
         },
         "database": {
             "database": "d88k3j2m61uu9j",
-            "table": "medimate_medimate"
+            "table": "medimate"
         }
     },
     {
