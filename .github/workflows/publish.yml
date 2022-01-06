@@ -3,8 +3,10 @@ on:
   push:
     branches: [ dockerize ]
   workflow_dispatch:
+env:
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 jobs:
-  deploy:
+  tag:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -24,3 +26,20 @@ jobs:
         pipenv run flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         pipenv run flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Bump version and push tag
+      uses: anothrNick/github-tag-action@master
+      env:
+        RELEASE_BRANCHES: master,main,dockerize
+  deploy:
+    needs: tag
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Publish to Registry
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: rssiweb/gsheet2db
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+        registry: ghcr.io
+        tag_semver: true
