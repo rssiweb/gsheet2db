@@ -117,7 +117,7 @@
         "name": "Donation database",
         "sheet": {
             "id": "1EiI3fXan18w3ZW7BDZCrrc_MqrIA-cHhF9pqLwKO-_A",
-            "range": "A:X",
+            "range": "A:Y",
             "has_header": true
         },
         "database": {
