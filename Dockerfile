@@ -1,8 +1,8 @@
 FROM python:3.8-slim
 RUN apt-get update && apt-get -y install cron
 
-COPY ./app/Pipfile /app/Pipfile
-COPY ./app/Pipfile.lock /app/Pipfile.lock
+COPY Pipfile /app/Pipfile
+COPY Pipfile.lock /app/Pipfile.lock
 WORKDIR /app
 RUN pip install --upgrade pip pipenv
 RUN pipenv install --system
