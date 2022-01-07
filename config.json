@@ -113,5 +113,16 @@
             "database": "d88k3j2m61uu9j",
             "table": "claim"
         }
+    }, {
+        "name": "Donation database",
+        "sheet": {
+            "id": "1EiI3fXan18w3ZW7BDZCrrc_MqrIA-cHhF9pqLwKO-_AI",
+            "range": "A:X",
+            "has_header": true
+        },
+        "database": {
+            "database": "d88k3j2m61uu9j",
+            "table": "donation"
+        }
     }
 ]
