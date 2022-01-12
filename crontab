@@ -1,1 +1,1 @@
-0 0 * * * python /app/app.py > /dev/stdout
+* * * * * python /app/app.py
