@@ -114,7 +114,7 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "claim"
         }
     }, {

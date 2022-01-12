@@ -1,7 +1,7 @@
 name: Build and Trigger Deploy
 on:
   push:
-    branches: [ dockerize ]
+    branches: [ master ]
   workflow_dispatch:
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -29,7 +29,7 @@ jobs:
     - name: Bump version and push tag
       uses: anothrNick/github-tag-action@master
       env:
-        RELEASE_BRANCHES: master,main,dockerize
+        RELEASE_BRANCHES: master
   deploy:
     needs: tag
     runs-on: ubuntu-latest
