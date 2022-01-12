@@ -1,1 +1,3 @@
-*/5 * * * * python /app/app.py
+SHELL=/bin/bash
+BASH_ENV=/etc/environment
+* * * * * /usr/local/bin/python /app/app.py > /proc/1/fd/1 2>/proc/1/fd/2

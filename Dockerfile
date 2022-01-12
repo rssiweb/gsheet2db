@@ -7,11 +7,12 @@ WORKDIR /app
 RUN pip install --upgrade pip pipenv
 RUN pipenv install --system
 
+COPY entrypoint.sh /app/entrypoint.sh
+
 COPY crontab /etc/cron.d/crontab
 RUN chmod 0644 /etc/cron.d/crontab
 RUN /usr/bin/crontab /etc/cron.d/crontab
-
-ENV CREDENTIALS_SERVICE_ACCOUNT='' 
+RUN touch /var/log/cron.log
 
 COPY ./app /app
-CMD ["cron", "-f"]
+ENTRYPOINT [ "/app/entrypoint.sh" ]

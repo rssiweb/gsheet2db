@@ -4,6 +4,7 @@ import json
 import logging
 from google_sheet import SheetReaderService
 from target.database import Database
+import pathlib
 
 
 logging.basicConfig(
@@ -13,7 +14,7 @@ logging.basicConfig(
 )
 logging.getLogger()
 
-
+base_path = pathlib.Path(__file__).parent.resolve()
 def read_service_creds(key_file_location):
     if not os.path.exists(key_file_location):
         data = os.getenv("CREDENTIALS_SERVICE_ACCOUNT")
@@ -22,7 +23,7 @@ def read_service_creds(key_file_location):
 
 
 def get_configurations():
-    with open("config.json", "r") as config:
+    with open(os.path.join(base_path, "config.json"), "r") as config:
         return json.loads(config.read())
 
 
@@ -41,7 +42,6 @@ def run():
     read_service_creds(key_file_location)
 
     database_url = os.environ["DATABASE_URL"]
-    logging.info(database_url)
 
     service = SheetReaderService(key_file_location)
     db = Database(database_url)
