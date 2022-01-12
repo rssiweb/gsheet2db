@@ -1,5 +1,4 @@
-[
-    {
+[{
         "name": "Library data",
         "sheet": {
             "id": "1TG0MrpPWoiainXHVmEJZqV2w4swDMi75RDbR-erfasY",
@@ -125,7 +124,7 @@
             "has_header": true
         },
         "database": {
-            "database": "d88k3j2m61uu9j",
+            "database": "rssi",
             "table": "donation"
         }
     }
