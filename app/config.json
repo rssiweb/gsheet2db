@@ -127,5 +127,16 @@
             "database": "rssi",
             "table": "donation"
         }
+    }, {
+        "name": "question_db",
+        "sheet": {
+            "id": "1HvaJ7f0b1WRdpIPjs0SzE5j6oOuvoo6Avg6PqqUAXBI",
+            "range": "A:J",
+            "has_header": true
+        },
+        "database": {
+            "database": "rssi",
+            "table": "question"
+        }
     }
 ]
