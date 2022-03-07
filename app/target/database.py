@@ -14,19 +14,16 @@ class Database:
         Extra columns in sheets should raise exception
         Extra columns in tables should be ok
         """
-        exact_match = db_config.get("exact_match", True)
-
         
         cols_in_sheet = [col.lower() for col in rows[0].keys()]
         cols_in_table = [c.name.lower() for c in table_columns]
-        extra_cols = set(cols_in_table) - set(cols_in_sheet)
+        extra_cols = set(cols_in_sheet) - set(cols_in_table)
         logging.debug(f"table has {len(table_columns)} columns")
         logging.debug(f"data has {len(rows[0].keys())}")
         if extra_cols:
-            if exact_match:
-                raise Exception(
-                    f"incoming data have {len(extra_cols)} unmatched columns {list(extra_cols)}"
-                )
+            raise ValueError(
+                f"incoming data have {len(extra_cols)} unmatched columns {list(extra_cols)}"
+            )
 
     def _check_pk_in_data(self, rows, pk):
         return all(pk in row.keys() for row in rows)
