@@ -124,12 +124,12 @@
             "id": "1WU4Me224H3_4DIDNWecxICWPCkmCGEPo0p3xdzmqOQI",
             "range": "A:AB",
             "has_header": true,
-            "name": ""
+            "name": "reimb"
         },
         "database": {
             "database": "rssi",
             "table": "claim",
-            "pk": ""
+            "pk": "id"
         }
     }, {
         "name": "Donation database",
@@ -137,19 +137,20 @@
             "id": "17vHHvagJBu3eTn_MhgBd4d2bzgL46dN-YnPhRjrEYW4",
             "range": "A:AA",
             "has_header": true,
-            "name": ""
+            "name": "Sheet1"
         },
         "database": {
             "database": "rssi",
             "table": "donation",
-            "pk": ""
+            "pk": "invoice"
         }
     }, {
         "name": "question_db",
         "sheet": {
             "id": "1HvaJ7f0b1WRdpIPjs0SzE5j6oOuvoo6Avg6PqqUAXBI",
             "range": "A:J",
-            "has_header": true
+            "has_header": true,
+            "name": "Sheet1"
         },
         "database": {
             "database": "rssi",
