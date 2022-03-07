@@ -95,18 +95,6 @@
         }
     },
     {
-        "name": "Result data",
-        "sheet": {
-            "id": "1mok8YX8--25LNcB47MMnmAZEiBQ0lmjfOkmsfCh8_XA",
-            "range": "A:I",
-            "has_header": true
-        },
-        "database": {
-            "database": "rssi",
-            "table": "result_database_result"
-        }
-    },
-    {
         "name": "New Result Database",
         "sheet": {
             "id": "1W4ioGLNfUKNXqAvPLnOP3gXXXoZS7jWDLS28mvBCrU0",
