@@ -14,7 +14,8 @@ class SheetReaderService:
         # Build the service object.
         self.service = build("sheets", "v4", credentials=credentials)
 
-    def read(self, sheet_id, range, has_headers=True):
+    def read(self, sheet_id, range, tabname, has_headers):
+        range = f"{tabname}!{range}" if tabname else range
         sheet = self.service.spreadsheets()
         result = sheet.values().get(spreadsheetId=sheet_id, range=range).execute()
         values = result.get("values", [])

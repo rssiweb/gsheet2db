@@ -9,7 +9,7 @@ import pathlib
 
 logging.basicConfig(
     format="%(asctime)s:%(levelname)s:%(filename)s:%(lineno)d: %(message)s",
-    level=logging.INFO,
+    level=logging.DEBUG,
     stream=sys.stdout,
 )
 logging.getLogger()
@@ -30,8 +30,9 @@ def get_configurations():
 def read_data(service, sheet_config):
     sheet_id = sheet_config["id"]
     range = sheet_config["range"]
+    tabname = sheet_config.get("name")
     has_header = sheet_config.get("has_header", True)
-    return service.read(sheet_id, range, has_header)
+    return service.read(sheet_id, range, tabname, has_header)
 
 
 def run():

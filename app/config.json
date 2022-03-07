@@ -3,11 +3,13 @@
         "sheet": {
             "id": "1TG0MrpPWoiainXHVmEJZqV2w4swDMi75RDbR-erfasY",
             "range": "A:N",
-            "has_header": true
+            "has_header": true,
+            "name": "book"
         },
         "database": {
             "database": "rssi",
-            "table": "bookdata_book"
+            "table": "bookdata_book",
+            "pk": "orderid"
         }
     },
     {
@@ -15,11 +17,13 @@
         "sheet": {
             "id": "1dYaA-UddfKksMrEyC70bVAxESFTuA4l4tRivlOH8R9k",
             "range": "A:O",
-            "has_header": true
+            "has_header": true,
+            "name": "leavedb"
         },
         "database": {
             "database": "rssi",
-            "table": "leavedb_leavedb"
+            "table": "leavedb_leavedb",
+            "pk": "leaveid"
         }
     },
     {
@@ -27,11 +31,13 @@
         "sheet": {
             "id": "1D7NY7ZbNpjwHzM7JjJufP3h-uBXJNC77L--fj3YBBXg",
             "range": "A:CA",
-            "has_header": true
+            "has_header": true,
+            "name": "members"
         },
         "database": {
             "database": "rssi",
-            "table": "rssimyaccount_members"
+            "table": "rssimyaccount_members",
+            "pk": "associatenumber"
         }
     },
     {
@@ -39,11 +45,13 @@
         "sheet": {
             "id": "1txikdGtRVE4YTuaPc_O7wkK93WDgus3-7BI5DvNDX_U",
             "range": "A:BC",
-            "has_header": true
+            "has_header": true,
+            "name": "student"
         },
         "database": {
             "database": "rssi",
-            "table": "rssimyprofile_student"
+            "table": "rssimyprofile_student",
+            "pk": "student_id"
         }
     },
     {
@@ -51,11 +59,13 @@
         "sheet": {
             "id": "1cO2AkjenAx56FAxkXQJ0Ke_TVC5M741MZU8UUQ2sf4k",
             "range": "A:AL",
-            "has_header": true
+            "has_header": true,
+            "name": "medi"
         },
         "database": {
             "database": "rssi",
-            "table": "medimate"
+            "table": "medimate",
+            "pk": "id"
         }
     },
     {
@@ -63,7 +73,8 @@
         "sheet": {
             "id": "15gU17ri74_0_nG7yidL1HfUfafNHmBzcINBQdQOAguk",
             "range": "A:K",
-            "has_header": true
+            "has_header": true,
+            "name": "myappraisal"
         },
         "database": {
             "database": "rssi",
@@ -75,7 +86,8 @@
         "sheet": {
             "id": "1UOe2dd-5zWRo6QxRF1K5g5RdpYXBPiIGUBe_nfYhUqg",
             "range": "A:F",
-            "has_header": true
+            "has_header": true,
+            "name": "allocationdb"
         },
         "database": {
             "database": "rssi",
@@ -99,7 +111,8 @@
         "sheet": {
             "id": "1W4ioGLNfUKNXqAvPLnOP3gXXXoZS7jWDLS28mvBCrU0",
             "range": "A:AC",
-            "has_header": true
+            "has_header": true,
+            "name": "Sheet1"
         },
         "database": {
             "database": "rssi",
@@ -110,22 +123,26 @@
         "sheet": {
             "id": "1WU4Me224H3_4DIDNWecxICWPCkmCGEPo0p3xdzmqOQI",
             "range": "A:AB",
-            "has_header": true
+            "has_header": true,
+            "name": ""
         },
         "database": {
             "database": "rssi",
-            "table": "claim"
+            "table": "claim",
+            "pk": ""
         }
     }, {
         "name": "Donation database",
         "sheet": {
             "id": "17vHHvagJBu3eTn_MhgBd4d2bzgL46dN-YnPhRjrEYW4",
             "range": "A:AA",
-            "has_header": true
+            "has_header": true,
+            "name": ""
         },
         "database": {
             "database": "rssi",
-            "table": "donation"
+            "table": "donation",
+            "pk": ""
         }
     }, {
         "name": "question_db",
