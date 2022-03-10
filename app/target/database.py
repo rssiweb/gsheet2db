@@ -97,7 +97,10 @@ class Database:
             row_pk = row[pk]
             ids_in_rows.add(row_pk)
             if row_pk not in existing_pks:
-                insert.append(row)
+                if row_pk:
+                    insert.append(row)
+                else:
+                    logging.info(f"dropping row with blank pk {row}")
             else:
                 update.append(row)
         logging.debug(f"sheet ids: {ids_in_rows}")
