@@ -114,7 +114,8 @@ class Database:
         with session.begin():
             # split the rows into insert and updates
             # get all IDs from database
-            self._delete(ids_to_delete, table, pk, session)
+            logging.info(f"skipping deletion of {len(ids_to_delete)} records")
+            # self._delete(ids_to_delete, table, pk, session)
             self._update(rows_to_update, table, pk, session)
             self._insert(rows_to_insert, table, session)
 
