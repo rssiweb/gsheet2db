@@ -87,7 +87,7 @@ class Database:
 
     def _categorize(self, rows, table, pk):
         existing_pks = Session(self.engine).query(getattr(table.c, pk)).all()
-        existing_pks = set(entry[0] for entry in existing_pks if entry[0])
+        existing_pks = set(str(entry[0]) for entry in existing_pks if entry[0])
         logging.debug(f"existing IDs: {existing_pks}")
         logging.info(f"existing IDs: {len(existing_pks)}")
         ids_in_rows = set()
@@ -96,7 +96,7 @@ class Database:
         for row in rows:
             row_pk = row[pk]
             ids_in_rows.add(row_pk)
-            if row_pk not in existing_pks:
+            if str(row_pk) not in existing_pks:
                 if row_pk:
                     insert.append(row)
                 else:
