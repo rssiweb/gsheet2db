@@ -44,7 +44,7 @@
         "name": "Asset data",
         "sheet": {
             "id": "1D7NY7ZbNpjwHzM7JjJufP3h-uBXJNC77L--fj3YBBXg",
-            "range": "A:J",
+            "range": "A:L",
             "has_header": true,
             "name": "asset"
         },
