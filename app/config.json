@@ -41,6 +41,20 @@
         }
     },
     {
+        "name": "Asset data",
+        "sheet": {
+            "id": "1D7NY7ZbNpjwHzM7JjJufP3h-uBXJNC77L--fj3YBBXg",
+            "range": "A:J",
+            "has_header": true,
+            "name": "asset"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "asset",
+            "pk": "submissionid"
+        }
+    },
+    {
         "name": "Student data",
         "sheet": {
             "id": "1txikdGtRVE4YTuaPc_O7wkK93WDgus3-7BI5DvNDX_U",
