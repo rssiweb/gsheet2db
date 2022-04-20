@@ -55,6 +55,20 @@
         }
     },
     {
+        "name": "Visitor data",
+        "sheet": {
+            "id": "13RWzy-lrv6OWSDUNd_8k7xA8RrTSPZBHnKj6uSP_m1g",
+            "range": "A:J",
+            "has_header": true,
+            "name": "visitordb"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "visitor",
+            "pk": "visitorid"
+        }
+    },
+    {
         "name": "Student data",
         "sheet": {
             "id": "1txikdGtRVE4YTuaPc_O7wkK93WDgus3-7BI5DvNDX_U",
