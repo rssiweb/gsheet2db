@@ -55,6 +55,20 @@
         }
     },
     {
+        "name": "Payslip data",
+        "sheet": {
+            "id": "1tckXL3GdrSYzciLGShMQaJ30rRYjCK_KHu0PEBuF0jk",
+            "range": "A:AF",
+            "has_header": true,
+            "name": "Sheet1"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "payslip",
+            "pk": "payslipid"
+        }
+    },
+    {
         "name": "Visitor data",
         "sheet": {
             "id": "13RWzy-lrv6OWSDUNd_8k7xA8RrTSPZBHnKj6uSP_m1g",
