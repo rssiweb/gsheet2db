@@ -58,7 +58,7 @@
         "name": "Payslip data",
         "sheet": {
             "id": "1tckXL3GdrSYzciLGShMQaJ30rRYjCK_KHu0PEBuF0jk",
-            "range": "A:AF",
+            "range": "A:AG",
             "has_header": true,
             "name": "Sheet1"
         },
