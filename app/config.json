@@ -159,7 +159,7 @@
         "database": {
             "database": "rssi",
             "table": "claim",
-            "pk": "id"
+            "pk": "reimbid"
         }
     }, {
         "name": "Donation database",
