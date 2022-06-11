@@ -82,20 +82,7 @@
             "pk": "visitorid"
         }
     },
-    {
-        "name": "Student data",
-        "sheet": {
-            "id": "1txikdGtRVE4YTuaPc_O7wkK93WDgus3-7BI5DvNDX_U",
-            "range": "A:BE",
-            "has_header": true,
-            "name": "student"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "rssimyprofile_student",
-            "pk": "student_id"
-        }
-    },
+
     {
         "name": "Mediclaim data",
         "sheet": {
