@@ -27,6 +27,21 @@
         }
     },
     {
+        "name": "Student data",
+        "sheet": {
+            "id": "1txikdGtRVE4YTuaPc_O7wkK93WDgus3-7BI5DvNDX_U",
+            "range": "A:AW",
+            "has_header": true,
+            "name": "student"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "rssimyprofile_student",
+            "pk": "student_id"
+        }
+    },
+
+    {
         "name": "Members data",
         "sheet": {
             "id": "1D7NY7ZbNpjwHzM7JjJufP3h-uBXJNC77L--fj3YBBXg",
