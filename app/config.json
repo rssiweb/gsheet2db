@@ -30,7 +30,7 @@
         "name": "Student data",
         "sheet": {
             "id": "1txikdGtRVE4YTuaPc_O7wkK93WDgus3-7BI5DvNDX_U",
-            "range": "A:AW",
+            "range": "A:AV",
             "has_header": true,
             "name": "student"
         },
