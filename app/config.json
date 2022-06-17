@@ -41,7 +41,20 @@
         }
     },
 
-
+    {
+        "name": "Members data",
+        "sheet": {
+            "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
+            "range": "A:CA",
+            "has_header": true,
+            "name": "myaccount"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "rssimyaccount_members",
+            "pk": "associatenumber"
+        }
+    },
     {
         "name": "Asset data",
         "sheet": {
