@@ -153,7 +153,7 @@
         "name": "Claim database",
         "sheet": {
             "id": "1WU4Me224H3_4DIDNWecxICWPCkmCGEPo0p3xdzmqOQI",
-            "range": "A:AB",
+            "range": "A:AC",
             "has_header": true,
             "name": "reimb"
         },
