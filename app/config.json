@@ -197,7 +197,7 @@
         },
         "database": {
             "database": "rssi",
-            "table": "wbt_comp"
+            "table": "wbt_status"
         }
     }
 ]
