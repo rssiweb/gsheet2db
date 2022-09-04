@@ -187,5 +187,17 @@
             "database": "rssi",
             "table": "question"
         }
+    }, {
+        "name": "wbt_comp",
+        "sheet": {
+            "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
+            "range": "D:I",
+            "has_header": true,
+            "name": "wbt"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "wbt_comp"
+        }
     }
 ]
