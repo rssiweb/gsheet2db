@@ -86,7 +86,7 @@
         "name": "Visitor data",
         "sheet": {
             "id": "13RWzy-lrv6OWSDUNd_8k7xA8RrTSPZBHnKj6uSP_m1g",
-            "range": "A:P",
+            "range": "A:Q",
             "has_header": true,
             "name": "visitordb"
         },
