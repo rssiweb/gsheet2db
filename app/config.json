@@ -93,7 +93,7 @@
         "database": {
             "database": "rssi",
             "table": "visitor",
-            "pk": "visitorid"
+            "pk": "slno"
         }
     },
 
