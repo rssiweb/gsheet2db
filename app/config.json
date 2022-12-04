@@ -16,7 +16,7 @@
         "name": "Leave data",
         "sheet": {
             "id": "1dYaA-UddfKksMrEyC70bVAxESFTuA4l4tRivlOH8R9k",
-            "range": "A:O",
+            "range": "A:P",
             "has_header": true,
             "name": "leavedb"
         },
