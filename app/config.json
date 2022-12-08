@@ -13,20 +13,6 @@
         }
     },
     {
-        "name": "Leave data",
-        "sheet": {
-            "id": "1dYaA-UddfKksMrEyC70bVAxESFTuA4l4tRivlOH8R9k",
-            "range": "A:P",
-            "has_header": true,
-            "name": "leavedb"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "leavedb_leavedb",
-            "pk": "leaveid"
-        }
-    },
-    {
         "name": "Student data",
         "sheet": {
             "id": "1txikdGtRVE4YTuaPc_O7wkK93WDgus3-7BI5DvNDX_U",
