@@ -30,6 +30,7 @@ jobs:
       uses: anothrNick/github-tag-action@master
       env:
         RELEASE_BRANCHES: master
+        DEFAULT_BRANCH: master
   deploy:
     needs: tag
     runs-on: ubuntu-latest
