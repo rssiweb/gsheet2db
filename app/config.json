@@ -30,7 +30,7 @@
         "name": "Members data",
         "sheet": {
             "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
-            "range": "A:CC",
+            "range": "A:CG",
             "has_header": true,
             "name": "myaccount"
         },
@@ -134,19 +134,6 @@
         "database": {
             "database": "rssi",
             "table": "new_result"
-        }
-    }, {
-        "name": "Claim database",
-        "sheet": {
-            "id": "1WU4Me224H3_4DIDNWecxICWPCkmCGEPo0p3xdzmqOQI",
-            "range": "A:AC",
-            "has_header": true,
-            "name": "reimb"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "claim",
-            "pk": "reimbid"
         }
     }, {
         "name": "Donation database",
