@@ -133,7 +133,7 @@
         },
         "database": {
             "database": "rssi",
-            "table": "new_result"
+            "table": "result"
         }
     }, {
         "name": "Donation database",
