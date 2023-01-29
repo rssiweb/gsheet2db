@@ -127,7 +127,7 @@
         "name": "New Result Database",
         "sheet": {
             "id": "1W4ioGLNfUKNXqAvPLnOP3gXXXoZS7jWDLS28mvBCrU0",
-            "range": "A:AC",
+            "range": "A:AO",
             "has_header": true,
             "name": "Sheet1"
         },
