@@ -172,5 +172,17 @@
             "database": "rssi",
             "table": "wbt_status"
         }
+    }, {
+        "name": "candidate_pool",
+        "sheet": {
+            "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
+            "range": "A:L",
+            "has_header": true,
+            "name": "interview"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "candidatepool"
+        }
     }
 ]
