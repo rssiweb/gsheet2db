@@ -16,7 +16,7 @@
         "name": "Members data",
         "sheet": {
             "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
-            "range": "A:CH",
+            "range": "A:BD",
             "has_header": true,
             "name": "myaccount"
         },
@@ -25,37 +25,7 @@
             "table": "rssimyaccount_members",
             "pk": "associatenumber"
         }
-    },
-    {
-        "name": "Visitor data",
-        "sheet": {
-            "id": "13RWzy-lrv6OWSDUNd_8k7xA8RrTSPZBHnKj6uSP_m1g",
-            "range": "A:U",
-            "has_header": true,
-            "name": "visitordb"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "visitor",
-            "pk": "slno"
-        }
-    },
-
-    {
-        "name": "Mediclaim data",
-        "sheet": {
-            "id": "1WU4Me224H3_4DIDNWecxICWPCkmCGEPo0p3xdzmqOQI",
-            "range": "A:AL",
-            "has_header": true,
-            "name": "medi"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "medimate",
-            "pk": "id"
-        }
-    },
-    {
+    },{
         "name": "Allocation data",
         "sheet": {
             "id": "1UOe2dd-5zWRo6QxRF1K5g5RdpYXBPiIGUBe_nfYhUqg",
@@ -67,20 +37,7 @@
             "database": "rssi",
             "table": "allocationdb_allocationdb"
         }
-    },
-    {
-        "name": "New Result Database",
-        "sheet": {
-            "id": "1W4ioGLNfUKNXqAvPLnOP3gXXXoZS7jWDLS28mvBCrU0",
-            "range": "A:AR",
-            "has_header": true,
-            "name": "Sheet1"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "result"
-        }
-    }, {
+    },{
         "name": "question_db",
         "sheet": {
             "id": "1HvaJ7f0b1WRdpIPjs0SzE5j6oOuvoo6Avg6PqqUAXBI",
