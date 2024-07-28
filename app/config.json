@@ -16,7 +16,7 @@
         "name": "Members data",
         "sheet": {
             "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
-            "range": "A:BD",
+            "range": "A:BB",
             "has_header": true,
             "name": "myaccount"
         },
