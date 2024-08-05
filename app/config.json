@@ -73,5 +73,17 @@
             "database": "rssi",
             "table": "candidatepool"
         }
+    }, {
+        "name": "associate_schedule",
+        "sheet": {
+            "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
+            "range": "A:D",
+            "has_header": true,
+            "name": "associate_schedule"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "associate_schedule"
+        }
     }
 ]
