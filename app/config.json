@@ -77,7 +77,7 @@
         "name": "associate_schedule",
         "sheet": {
             "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
-            "range": "A:E",
+            "range": "A:F",
             "has_header": true,
             "name": "associate_schedule"
         },
