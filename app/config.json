@@ -61,31 +61,7 @@
             "database": "rssi",
             "table": "wbt_status"
         }
-    }, {
-        "name": "candidate_pool",
-        "sheet": {
-            "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
-            "range": "A:L",
-            "has_header": true,
-            "name": "interview"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "candidatepool"
-        }
-    }, {
-        "name": "associate_schedule",
-        "sheet": {
-            "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
-            "range": "A:F",
-            "has_header": true,
-            "name": "associate_schedule"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "associate_schedule"
-        }
-    }, {
+    },{
         "name": "candidatepool",
         "sheet": {
             "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
