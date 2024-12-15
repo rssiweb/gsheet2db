@@ -1,18 +1,4 @@
 [{
-        "name": "Library data",
-        "sheet": {
-            "id": "1TG0MrpPWoiainXHVmEJZqV2w4swDMi75RDbR-erfasY",
-            "range": "A:N",
-            "has_header": true,
-            "name": "book"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "bookdata_book",
-            "pk": "orderid"
-        }
-    },
-    {
         "name": "Members data",
         "sheet": {
             "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
