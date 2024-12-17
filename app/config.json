@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Members data",
         "sheet": {
             "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
@@ -11,7 +12,8 @@
             "table": "rssimyaccount_members",
             "pk": "associatenumber"
         }
-    },{
+    },
+    {
         "name": "Allocation data",
         "sheet": {
             "id": "1UOe2dd-5zWRo6QxRF1K5g5RdpYXBPiIGUBe_nfYhUqg",
@@ -23,7 +25,8 @@
             "database": "rssi",
             "table": "allocationdb_allocationdb"
         }
-    },{
+    },
+    {
         "name": "question_db",
         "sheet": {
             "id": "1HvaJ7f0b1WRdpIPjs0SzE5j6oOuvoo6Avg6PqqUAXBI",
@@ -35,7 +38,8 @@
             "database": "rssi",
             "table": "question"
         }
-    }, {
+    },
+    {
         "name": "wbt_status",
         "sheet": {
             "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
@@ -47,7 +51,8 @@
             "database": "rssi",
             "table": "wbt_status"
         }
-    },{
+    },
+    {
         "name": "candidatepool",
         "sheet": {
             "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
@@ -59,7 +64,8 @@
             "database": "rssi",
             "table": "candidatepool"
         }
-    },{
+    },
+    {
         "name": "RTET",
         "sheet": {
             "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
@@ -70,18 +76,6 @@
         "database": {
             "database": "rssi",
             "table": "rtet"
-        }
-    },{
-        "name": "signup",
-        "sheet": {
-            "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
-            "range": "C:V",
-            "has_header": true,
-            "name": "signup"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "signup"
         }
     }
 ]
