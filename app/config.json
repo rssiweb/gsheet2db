@@ -71,5 +71,17 @@
             "database": "rssi",
             "table": "rtet"
         }
+    },{
+        "name": "signup",
+        "sheet": {
+            "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
+            "range": "A:AT",
+            "has_header": true,
+            "name": "signup"
+        },
+        "database": {
+            "database": "rssi",
+            "table": "signup"
+        }
     }
 ]
