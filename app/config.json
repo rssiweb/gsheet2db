@@ -75,7 +75,7 @@
         "name": "signup",
         "sheet": {
             "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
-            "range": "C:AT",
+            "range": "C:V",
             "has_header": true,
             "name": "signup"
         },
