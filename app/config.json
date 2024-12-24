@@ -1,19 +1,5 @@
 [
     {
-        "name": "Members data",
-        "sheet": {
-            "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
-            "range": "A:BB",
-            "has_header": true,
-            "name": "myaccount"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "rssimyaccount_members",
-            "pk": "associatenumber"
-        }
-    },
-    {
         "name": "Allocation data",
         "sheet": {
             "id": "1UOe2dd-5zWRo6QxRF1K5g5RdpYXBPiIGUBe_nfYhUqg",
