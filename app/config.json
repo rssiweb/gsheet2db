@@ -1,18 +1,5 @@
 [
     {
-        "name": "Allocation data",
-        "sheet": {
-            "id": "1UOe2dd-5zWRo6QxRF1K5g5RdpYXBPiIGUBe_nfYhUqg",
-            "range": "A:F",
-            "has_header": true,
-            "name": "allocationdb"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "allocationdb_allocationdb"
-        }
-    },
-    {
         "name": "question_db",
         "sheet": {
             "id": "1HvaJ7f0b1WRdpIPjs0SzE5j6oOuvoo6Avg6PqqUAXBI",
@@ -23,19 +10,6 @@
         "database": {
             "database": "rssi",
             "table": "question"
-        }
-    },
-    {
-        "name": "wbt_status",
-        "sheet": {
-            "id": "1IUFYM9dWq2jDkzoZHQNhjabZVRqe4gRDtPLjg3cxSJ8",
-            "range": "A:E",
-            "has_header": true,
-            "name": "wbt"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "wbt_status"
         }
     },
     {
