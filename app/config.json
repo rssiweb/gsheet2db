@@ -11,18 +11,5 @@
             "database": "rssi",
             "table": "question"
         }
-    },
-    {
-        "name": "RTET",
-        "sheet": {
-            "id": "1zbDT3wkXcUkXU3GADBLhOUqGMtb_BjSQf-5_bywoa5Q",
-            "range": "A:E",
-            "has_header": true,
-            "name": "RTET"
-        },
-        "database": {
-            "database": "rssi",
-            "table": "rtet"
-        }
     }
 ]
